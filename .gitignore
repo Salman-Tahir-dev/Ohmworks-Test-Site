@@ -1,0 +1,33 @@
+# Python Virtual Environment
+.venv/
+venv/
+ENV/
+env/
+
+# Byte-compiled / cache files
+__pycache__/
+*.py[cod]
+*$py.class
+*.pytest_cache/
+
+# Environment files and credentials
+.env
+.env.local
+.env.*.local
+*.pem
+*.key
+
+# SQLite Database
+*.db
+*.sqlite3
+ohmworks.db
+
+# Logs and temporary files
+*.log
+scratch/
+.system_generated/
+
+# OS specific files
+.DS_Store
+Thumbs.db
+desktop.ini
